@@ -1,0 +1,23 @@
+CRITICAL - 2022-05-10 22:28:46 --> Undefined variable $userdata
+#0 C:\ukk2022\app\Views\dashboard.php(124): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\ukk2022\\app\\...', 124)
+#1 C:\ukk2022\system\View\View.php(210): include('C:\\ukk2022\\app\\...')
+#2 C:\ukk2022\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\ukk2022\system\Common.php(1089): CodeIgniter\View\View->render('dashboard', Array, true)
+#4 C:\ukk2022\app\Controllers\Home.php(15): view('dashboard', Array)
+#5 C:\ukk2022\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\ukk2022\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\ukk2022\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\ukk2022\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\ukk2022\system\Commands\Server\rewrite.php(43): require_once('C:\\ukk2022\\publ...')
+#10 {main}
+CRITICAL - 2022-05-10 22:53:10 --> syntax error, unexpected double-quoted string " ?>);", expecting "," or ";"
+#0 C:\ukk2022\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\ukk2022\system\View\View.php(226): CodeIgniter\View\View->render('layout/centerfo...', Array, true)
+#2 C:\ukk2022\system\Common.php(1089): CodeIgniter\View\View->render('login', Array, true)
+#3 C:\ukk2022\app\Controllers\Login.php(9): view('login')
+#4 C:\ukk2022\system\CodeIgniter.php(832): App\Controllers\Login->index()
+#5 C:\ukk2022\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#6 C:\ukk2022\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\ukk2022\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\ukk2022\system\Commands\Server\rewrite.php(43): require_once('C:\\ukk2022\\publ...')
+#9 {main}
